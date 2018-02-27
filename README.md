@@ -4,7 +4,6 @@
 http://beatthehash.com
 
 ### Install
-`$ glide install `
-
-### Test
-`$ go test`
+`$ glide install`
+`$ go build`
+`$ ./beat-the-hash -h`
