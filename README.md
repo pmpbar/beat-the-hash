@@ -5,5 +5,7 @@ http://beatthehash.com
 
 ### Install
 `$ glide install`
+
 `$ go build`
+
 `$ ./beat-the-hash -h`
