@@ -28,7 +28,7 @@ func TestHash(t *testing.T) {
 		0x44, 0xc2, 0x37, 0x71, 0x4b, 0xcb, 0x50, 0x20, 0xc8, 0xb5, 0xa8,
 		0x89, 0x00, 0xe4, 0xf7, 0x96, 0xe6, 0x5a, 0x53, 0x9a, 0x09}
 
-	output := hash(knownInput)
+	output := Hash(knownInput)
 	if !bytes.Equal(knownOutput, output) {
 		t.Error("Skein hash does not match knownOutput")
 	}
@@ -39,7 +39,7 @@ func TestHamming(t *testing.T) {
 	knownInput := []byte("dsrmaaaaaaaaaaaaaaaaaaaa0fce1610")
 	knownHamming := 435
 	rmh := RandellMunroeHash()
-	output := hash(knownInput)
+	output := Hash(knownInput)
 	distance := Hamming(rmh, output)
 	if distance != knownHamming {
 		t.Error("Hamming distance does not match knownHamming")
