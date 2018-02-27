@@ -1,0 +1,10 @@
+hash: 3d08492a318f4f953856b204ab25ee0960fa407b276f036a30d66901a06f2c9c
+updated: 2018-02-27T11:18:15.26138-07:00
+imports:
+- name: github.com/logrusorgru/aurora
+  version: ca24023cc0175fdf372518cb1c5062cc86db2634
+- name: github.com/pmpbar/log
+  version: 725950942e0737c5b9eb9b785156810efe8e84de
+- name: github.com/whyrusleeping/FastGoSkein
+  version: 9c48884ff16dfab2ae5f1571dcf9957611e49b39
+testImports: []

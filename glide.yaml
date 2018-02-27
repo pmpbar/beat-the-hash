@@ -1,0 +1,4 @@
+package: beat-the-hash
+import:
+- package: github.com/whyrusleeping/FastGoSkein
+- package: github.com/pmpbar/log
